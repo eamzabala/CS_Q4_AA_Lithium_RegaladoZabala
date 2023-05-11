@@ -1,0 +1,104 @@
+.main {
+    height: 80vh;
+    padding: 2%;
+}
+
+.main .cContent {
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.cContent #logo {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+
+    width: 100%;
+    height: 15%;
+
+    background: url("../../assets/logo.png") center/contain no-repeat;
+}
+
+.cContent nav {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 10%;
+}
+
+.cContent .cQuestionPanel {
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+
+    width: 100%;
+    height: 75%;
+
+    padding: 2.5%;
+}
+
+.cQuestionPanel .cQuestion {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 5%;
+
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+.cQuestion * * {
+    display: none;
+}
+
+.cQuestion .question {
+    position: relative;
+    top: 0px; 
+    left: 0px;
+
+    width: 100%;
+    height: 40%;
+
+    border: 1px dotted darkslategray;
+}
+
+.cQuestion .choice {
+    position: relative;
+    top: 0px; 
+    left: 0px;
+
+    width: 100%;
+    height: 60%;
+
+    border: 1px dotted darkslategray;
+}
+
+.cContent nav #back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 15%;
+    height: 100%;
+
+    background-color: steelblue;
+}
+
+.cContent nav #next {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    width: 15%;
+    height: 100%;
+
+    background-color: steelblue;
+}
